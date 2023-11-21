@@ -1,0 +1,24 @@
+{
+    "name": "dexcedu/sign",
+    "description": "A PHP package for verifying and decoding Ethereum signatures",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HB",
+            "email": "administrator@dexc.pro"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "kornrunner/secp256k1": "^0.2.0",
+        "simplito/elliptic-php": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DEXCEDU\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
